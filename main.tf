@@ -1,5 +1,5 @@
 resource "null_resource" "foo" {
   triggers = {
-    value = "${var.foo}"
+    value = "abc-${var.foo}"
   }
 }
